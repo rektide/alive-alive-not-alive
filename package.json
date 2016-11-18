@@ -1,12 +1,12 @@
 {
 	"name": "alive-alive-not-alive",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Filter a list of hostnames (provided on stdin) to alive/pingable (stdout) or not (stderr).",
 	"main": "alive-alive-not-alive.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"bins": {
+	"bin": {
 		"alive-alive-not-alive": "./alive-alive-not-alive.js"
 	},
 	"repository": {
